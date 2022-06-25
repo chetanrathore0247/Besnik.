@@ -1,0 +1,244 @@
+body i {
+  cursor: pointer;
+}
+
+/*Header*/
+
+.navigation {
+  background: radial-gradient(
+    96.32% 571.83% at 98.4% 19.88%,
+    #8fb3ff 0%,
+    #9d6be8 27.72%,
+    #de2778 54.29%,
+    #b03de2 100%
+  );
+}
+
+.navigation a {
+  color: white;
+  font-weight: 500;
+}
+
+.navigation button {
+  background: rgba(255, 255, 255, 0.25);
+  border-style: none;
+  padding: 1rem 2rem;
+  border-radius: 30px;
+  color: white;
+  font-weight: 500;
+}
+
+.navigation .navbar-toggler:focus {
+  outline: none;
+  border: unset;
+  box-shadow: none;
+}
+
+.navigation .dropdown-menu {
+  background-color: white;
+}
+
+.navigation .dropdown-menu a {
+  color: gray;
+}
+
+/*Top Banner*/
+
+#top-banner button {
+  max-width: max-content;
+  background-color: #231a36;
+  border-radius: 30px;
+  border-style: none;
+  padding: 1rem 2rem;
+  color: white;
+}
+
+#top-banner button i {
+  border: 1px solid white;
+  border-radius: 50%;
+  padding: 0.2rem;
+  font-size: 10px;
+}
+
+#top-banner h1 {
+  font-size: 5rem;
+  font-weight: 900;
+}
+
+#top-banner p {
+  opacity: 90%;
+}
+
+@media only screen and (max-width: 480px) {
+  #top-banner h1 {
+    font-size: 3rem;
+    font-weight: 900;
+  }
+}
+
+/*SOME OF OUR TRUSTED CLIENTS*/
+
+.top-logos p {
+  color: #b2b7be;
+  font-weight: 600;
+  font-size: 1.4rem;
+}
+
+#solution-for-every-need h1 {
+  font-weight: 700;
+  font-size: 3rem;
+}
+
+#solution-for-every-need p {
+  color: #426666;
+}
+
+/*Testimonials*/
+
+#testimonials a {
+  color: #b33cdb;
+  text-decoration: none;
+  font-size: 1.3rem;
+}
+
+#testimonials h3 {
+  font-weight: 600;
+  font-size: 2rem;
+}
+
+#testimonials p {
+  color: #426666;
+}
+
+#testimonials button {
+  background: none;
+  border-style: none;
+}
+
+#testimonials button i {
+  border: 1px solid #42424a;
+  border-radius: 50%;
+  padding: 0.2rem;
+  font-size: 8px;
+}
+
+/*Company-achievements*/
+
+#company-achievements {
+  background: #231a36;
+  padding: 4rem 0;
+}
+
+#company-achievements h2 {
+  color: white;
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+
+#company-achievements p {
+  color: #7b9292;
+}
+
+/*Solution for every need*/
+
+#entrepreneurs h2 {
+  font-size: 2.7rem;
+  font-weight: 600;
+}
+
+#entrepreneurs p {
+  color: #426666;
+}
+
+#entrepreneurs span {
+  color: #3b3b43;
+  font-size: 1.1rem;
+  font-weight: 500;
+}
+
+#entrepreneurs h4 {
+  font-weight: 700;
+}
+
+#entrepreneurs .cards p {
+  color: #adadba;
+  font-size: 12px;
+}
+
+#entrepreneurs .cards a {
+  text-decoration: none;
+  color: #b33cdb;
+}
+
+#entrepreneurs .cards a i {
+  border: 1px solid #b33cdb;
+  border-radius: 50%;
+  padding: 0.2rem;
+  font-size: 8px;
+}
+
+/*Happy Clients*/
+
+#happy-clients h2 {
+  font-size: 2.7rem;
+  font-weight: 600;
+}
+
+#happy-clients span {
+  color: #426666;
+}
+
+#happy-clients p {
+  color: #6d6d6d;
+  font-weight: 500;
+  font-size: 1.4rem;
+}
+
+/*Subscribe-our-newsletter*/
+
+#subscribe-our-newsletter {
+  background: radial-gradient(
+    96.32% 571.83% at 98.4% 19.88%,
+    #8fb3ff 0%,
+    #9d6be8 27.72%,
+    #de2778 54.29%,
+    #b03de2 100%
+  );
+  border-radius: 20px;
+  padding: 5rem 0;
+}
+
+#subscribe-our-newsletter h2 {
+  color: white;
+  font-weight: 600;
+  font-size: 3rem;
+}
+
+#subscribe-our-newsletter p {
+  color: #ffffffd4;
+}
+
+#subscribe-our-newsletter button {
+  max-width: max-content;
+  background-color: #231a36;
+  border-radius: 30px;
+  border-style: none;
+  padding: 1rem 2rem;
+  color: white;
+}
+
+#subscribe-our-newsletter button i {
+  border: 1px solid white;
+  border-radius: 50%;
+  padding: 0.2rem;
+  font-size: 10px;
+}
+
+/*footer*/
+
+#footer a {
+  text-decoration: none;
+  color: #333333;
+  font-size: 1rem;
+  font-weight: 500;
+}
